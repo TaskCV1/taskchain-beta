@@ -1,0 +1,42 @@
+/* TaskChain Tailwind-Compatible Layout Fixes */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-btn {
+  @apply px-4 py-2 text-left rounded hover:bg-purple-600 hover:text-white transition;
+}
+
+aside {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+#mainContent {
+  background-color: #1f2937;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  min-height: 60vh;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #1f2937;
+}
